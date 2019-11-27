@@ -14,20 +14,28 @@
     <meta name="msapplication-TileColor" content="#ffde59">
     <meta name="theme-color" content="#ffde59">
 
-    <title>{%- if page.title -%}
-        {{ page.title }}
-      {%- else -%}
-       {{ site.title }}
-      {%- endif -%}</title>
+    <title>{{ site.title }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ "/assets/bs-override.css" | relative_url }}">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     
   </head>
   <body id="page-top">
-    {{ content }}
+    
+    <header>
+      <div class="header-content">
+        <div class="header-content-inner">
+          <h1>DragonPy</h1>
+          <hr>
+          <p>A Python conference in Ljubljana, Slovenia, taking place on April 18 & 19, 2020. Followed by three days of sprints.</p>
+          <p>Save the date!</p>
+        </div>
+      </div>
+    </header>
+
   </body>
 
 </html>
