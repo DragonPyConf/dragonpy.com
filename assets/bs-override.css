@@ -1,82 +1,66 @@
+body{
+  font-family: '"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif';
+  
+}
 
-
-html{
+.bg-image{
+  display:block;
+  position:fixed;
+  width:100%;
   height:100%;
-	background: #000000 url(/assets/ljubljana-bckg-2.jpg); no-repeat center bottom fixed;
+  top:0;
+  left:0;
+
+  background: #000000 url(/assets/ljubljana-bckg-2.jpg); no-repeat center bottom fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  z-index:-1;
 }
 
-body{
-  background: transparent;
+
+.content{
+  padding:1.5rem;
+  z-index:1;
   color:#ffffff;
-  font-family: '"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif';
-  height: 100%;
-  width: 100%;
+  position:relative;
 }
 
-header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  text-align: center;
-}
-
-.header-content {
-  position: relative;
-  text-align: center;
-  padding: 100px 15px 100px;
-  width: 100%;
-}
-
-h1 {
+h1{
   font-weight: 700;
-  font-size:4rem;
+  font-size: 4rem;
   margin-top: 0;
   margin-bottom: 0;
 }
-
-hr {
+hr{
   margin: 30px auto;
   border-width:3px;
-  max-width: 50px;
-  border-color:white;
+  max-width:50px;
+  border-color:#ffffff;
 }
-
 p {
   font-weight: 300;
-  font-size:1.5rem;
-  color: rgba(white, .9);
-  margin-bottom: 50px;
+  font-size:2rem;
+  margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  .header-content {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(50%);
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
-    padding: 0 50px;
-  }
+#mc_embed_signup{
+  clear:left; 
 }
-
-@media (min-width: 768px) {
-  .header-content-inner {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#mc_embed_signup_scroll label{
+  display:none !important;
 }
-
-@media (min-width: 768px) {
-  p {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size:2rem;
-  }
+#mc_embed_signup input.email{
+  height:45px !important;
+  font-size:1.2rem !important;
 }
-
+#mc_embed_signup .button{
+  height:45px !important;
+  background: #107474 !important;
+  font-size:1.2rem !important;
+}
+#mc_disclaimer{
+  font-size: 100%;
+}
