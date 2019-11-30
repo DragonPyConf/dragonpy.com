@@ -1,6 +1,15 @@
+---
+---
+
+// Basic set-up
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@import "_variables";
+
+// Overrided Bootstrap classes
+
 body{
-  font-family: '"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif';
-  
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .bg-image{
@@ -11,7 +20,7 @@ body{
   top:0;
   left:0;
 
-  background: #000000 url(/assets/ljubljana-bckg-2.jpg); no-repeat center bottom fixed;
+  background: #000000 url(/assets/img/ljubljana-bckg-2.jpg) no-repeat center bottom fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,8 +55,9 @@ p {
   margin-bottom: 20px;
 }
 
+// Mailchimp classes
 #mc_embed_signup{
-  clear:left; 
+  clear:left;
 }
 #mc_embed_signup_scroll label{
   display:none !important;
