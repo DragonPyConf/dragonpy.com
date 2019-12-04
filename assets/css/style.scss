@@ -58,6 +58,11 @@ p {
 // Mailchimp classes
 #mc_embed_signup{
   clear:left;
+  
+  input.mce_inline_error{
+    border: 4px solid #e74f4f !important;
+  }
+
 }
 #mc_embed_signup_scroll label{
   display:none !important;
@@ -73,4 +78,19 @@ p {
 }
 #mc_disclaimer{
   font-size: 100%;
+}
+
+#mc_embed_signup div#mce-responses{
+  font-size: 1.2rem !important;
+  padding-bottom: 20px;
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+
+  @media (min-width: 992px) {
+    width: 80%;
+  }
+}
+#mc_embed_signup #mce-success-response{
+  color: white;
 }
