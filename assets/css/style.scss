@@ -29,19 +29,35 @@ body{
   z-index:-1;
 }
 
+.sponsors-header {
+  background: #000000 url(/assets/img/ljubljana-bckg-2.jpg) no-repeat center center;
+
+  a {
+    color: white;
+
+    :hover {
+      color: #7bc0c0;
+    }
+  }
+}
 
 .content{
   padding:1.5rem;
   z-index:1;
-  color:#ffffff;
   position:relative;
+
+  &.home-content {
+    color:#ffffff;
+  }
 }
 
 h1{
-  font-weight: 700;
-  font-size: 4rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  &.home-page-header {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 hr{
   margin: 30px auto;
@@ -49,11 +65,14 @@ hr{
   max-width:50px;
   border-color:#ffffff;
 }
-p {
+.home-page-intro p {
   font-weight: 300;
   font-size:2rem;
   margin-bottom: 20px;
 }
+
+
+
 
 // Mailchimp classes
 #mc_embed_signup{
