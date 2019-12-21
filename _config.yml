@@ -10,7 +10,7 @@ title: DragonPy - A Python conference
 description: >- # this means to ignore newlines until "baseurl:"
   A Python conference in Ljubljana, Slovenia, taking place on April 18 & 19, 2020.
   Followed by three days of sprints. Save the date!
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dragonpy.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_name: 'dragonpyconf'
 
 # Build settings
