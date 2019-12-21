@@ -1,0 +1,40 @@
+{% include header.html %}
+
+  <body>
+   
+    <header class="sponsors-header">
+      <div class="py-5 text-center">
+        <a href="{{ site.url }}" class="nav-link">
+          <h4><b>DragonPy</b> 2020</h4>
+        </a>
+      </div>
+    </header>
+
+    <div class="content container">
+    
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+          <h1 class="text-center">{{ page.title }}</h1>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-sm-12 col-md-8 mx-auto">
+
+          {{ content }}
+
+        </div>
+      </div>
+    </div>
+
+    <div class="p-3">
+      <div class="mx-auto mt-5">
+        <p class="text-center small">
+          Event is organized by Ljubljana's Python Community in collaboration with Center for Methodology and Informatics (Faculty of Social Sciences, University of Ljubljana).
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+</html>
