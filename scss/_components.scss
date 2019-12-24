@@ -1,0 +1,140 @@
+.text-white {
+  color: $white;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+body  {
+  background-image: url("../img/bg.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+body.home {
+  background-image: url("../img/bg-home.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.hero-text-bottom-padding {
+  padding-bottom: 25px;
+}
+
+.top-nav {
+  margin-top: 16px;
+  margin-bottom: 90px;
+
+  @include breakpoint(medium) {
+    margin-top: 48px;
+    margin-bottom: 90px;
+  }
+}
+
+.menu > li > a {
+  color: $white;
+
+  &:focus,
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+.btn.green {
+  padding: 12px 75px;
+  background-color: $green;
+  border-radius: 25px;
+  box-shadow: 0 5px 1px 0 $green-shadow;
+
+  font-weight: 800;
+  color: $white;
+}
+
+.btn.yellow {
+  position: relative;
+
+  padding: 12px 75px;
+  background-color: $yellow;
+  border-radius: 25px;
+  box-shadow: 0 5px 1px 0 $yellow-shadow;
+
+  font-weight: 800;
+  color: $black;
+
+  &:hover {
+    top: -1px;
+    box-shadow: 0 6px 1px 0 $yellow-shadow;
+  }
+
+  &:focus,
+  &:active {
+    top: 4px;
+    box-shadow: 0 2px 2px 0 $yellow-shadow;
+  }
+}
+
+.mobile-header {
+  position: relative;
+}
+
+.mobile-menu__close {
+  position: relative;
+  z-index: 30;
+}
+
+#mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+
+  background-color: $light-gray;
+  padding-bottom: 20px;
+}
+
+.mobile-menu__close {
+  margin-top: 16px;
+  margin-right: 20px;
+  font-weight: 800;
+}
+
+.mobile-menu__ul {
+  list-style: none;
+}
+
+.mobile-menu__ul li a {
+  color: $black;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.footer-menu {
+  list-style: none;
+}
+
+footer {
+  padding: 32px 0;
+}
+
+.footer-menu li a {
+  color: $black;
+  text-decoration: underline;
+  font-size: 13px;
+  line-height: 19px;
+
+  &:focus,
+  &:hover,
+  &:active {
+    color: $green;
+    text-decoration: none;
+  }
+}
+
+.text-footer {
+  font-size: 13px;
+  line-height: 19px;
+}
