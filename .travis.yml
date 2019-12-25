@@ -7,7 +7,7 @@ node_js:
 
 before_install:
   - rvm install 2.5.1
-  - gem install bundler
+  - gem install bundler -v 1.17.2
 
 install:
 - bundle install
@@ -19,7 +19,7 @@ before_script:
   - npm install
 
 script:
-- gulp
+- gulp sass
 - bundle exec jekyll build
 #- ./_scripts/deploy.sh
 
