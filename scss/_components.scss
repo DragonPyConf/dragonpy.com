@@ -13,9 +13,14 @@ body  {
 }
 
 body.home {
+  background-image: none;
+}
+
+.home-background {
   background-image: url("../img/bg-home.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  padding-bottom: 32px;
 }
 
 .hero-text-bottom-padding {
@@ -23,12 +28,12 @@ body.home {
 }
 
 .top-nav {
-  margin-top: 16px;
-  margin-bottom: 90px;
+  padding-top: 16px;
+  padding-bottom: 90px;
 
   @include breakpoint(medium) {
-    margin-top: 48px;
-    margin-bottom: 90px;
+    padding-top: 48px;
+    padding-bottom: 90px;
   }
 }
 
@@ -43,6 +48,8 @@ body.home {
 }
 
 .btn.green {
+  position: relative;
+
   padding: 12px 75px;
   background-color: $green;
   border-radius: 25px;
@@ -50,6 +57,17 @@ body.home {
 
   font-weight: 800;
   color: $white;
+
+  &:hover {
+    top: -1px;
+    box-shadow: 0 6px 1px 0 $green-shadow;
+  }
+
+  &:focus,
+  &:active {
+    top: 4px;
+    box-shadow: 0 2px 2px 0 $green-shadow;
+  }
 }
 
 .btn.yellow {
@@ -137,4 +155,45 @@ footer {
 .text-footer {
   font-size: 13px;
   line-height: 19px;
+}
+
+.footer-dragon {
+  height: 400px;
+  width: 100%;
+  margin-bottom: -40px;
+  margin-top: 40px;
+
+  background-image: url("../img/dragon.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+
+  body.home & {
+    position: relative;
+    z-index: -1;
+    margin-top: -80px;
+  }
+}
+
+.home-sponsors {
+  position: relative;
+  z-index: 10;
+  margin-top: 32px;
+}
+
+.home-sponsors__cta {
+  margin: 16px auto;
+}
+
+.home-newsletter {
+  margin: 32px auto;
+}
+
+#mce-EMAIL {
+  margin: 16px auto;
+}
+
+#mc_disclaimer {
+  margin-top: 16px;
 }
