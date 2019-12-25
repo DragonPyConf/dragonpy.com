@@ -1,0 +1,50 @@
+language: node_js
+
+node_js:
+  - '6'
+
+before_install:
+  - rvm install 2.5.1
+
+install:
+- bundle install
+
+before_script:
+  - gem install bundler
+  - bundle install
+  - npm install --global gulp-cli
+  - npm install --save-dev gulp
+  - npm install
+
+script:
+- gulp
+- bundle exec jekyll build
+#- ./_scripts/deploy.sh
+
+branches:
+  only:
+  - master
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+
+#after_success:
+#  - cd _site
+#  - git init
+#  - git config user.name "Travis CI"
+#  - git config user.email "deploy@travis-ci.org"
+#  - git remote add upstream "https://$GH_TOKEN@github.com/sparkica/dragonpy2020"
+#  - git fetch upstream
+#  - git reset upstream/master
+#  - git add -A .
+#  - git commit -m "[Build] ${TRAVIS_COMMIT}"
+#  - git push -q upstream HEAD:master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master

@@ -5,7 +5,7 @@ var autoprefixer  = require('autoprefixer');
 
 var sassPaths = [
   'node_modules/foundation-sites/scss',
-  'node_modules/motion-ui/src'
+  'node_modules/motion-ui/src',
 ];
 
 function sass() {
@@ -18,7 +18,7 @@ function sass() {
     .pipe($.postcss([
       autoprefixer({ browsers: ['last 2 versions', 'ie >= 9'] })
     ]))
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.stream());
 };
 
