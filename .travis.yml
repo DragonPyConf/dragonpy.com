@@ -5,8 +5,8 @@ node_js:
   - '7'
 
 before_install:
-  - rvm install 2.5.1
-  - gem install bundler -v 1.17.2
+  - rvm install 2.6.2
+  - gem install bundler
 
 install:
 - bundle install
