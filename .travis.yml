@@ -5,12 +5,12 @@ node_js:
 
 before_install:
   - rvm install 2.5.1
+  - gem install bundler
 
 install:
 - bundle install
 
 before_script:
-  - gem install bundler
   - bundle install
   - npm install --global gulp-cli
   - npm install --save-dev gulp
