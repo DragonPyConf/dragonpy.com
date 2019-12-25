@@ -18,7 +18,7 @@ before_script:
   - npm install
 
 script:
-- gulp sass
+- gulp build
 - bundle exec jekyll build
 
 

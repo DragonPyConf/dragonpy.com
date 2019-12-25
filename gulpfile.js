@@ -22,6 +22,18 @@ function sass() {
     .pipe(browserSync.stream());
 };
 
+function copyVendorFiles() {
+  return gulp.src([
+    'node_modules/jquery/dist/jquery.js',
+    'node_modules/what-input/dist/what-input.js',
+    'node_modules/foundation-sites/dist/js/foundation.js',
+    'node_modules/foundation-sites/dist/js/foundation.js.map',
+                  ] ,
+                 {base: 'node_modules/'}
+                 )
+      .pipe(gulp.dest('assets/vendor/'));
+};
+
 function serve() {
   browserSync.init({
     server: "./"
@@ -31,6 +43,8 @@ function serve() {
   gulp.watch("*.html").on('change', browserSync.reload);
 }
 
+gulp.task('vendor', copyVendorFiles);
 gulp.task('sass', sass);
 gulp.task('serve', gulp.series('sass', serve));
 gulp.task('default', gulp.series('sass', serve));
+gulp.task('build', gulp.series('sass', 'vendor'));
