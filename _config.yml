@@ -37,5 +37,3 @@ defaults:
 
 plugins:
   - jekyll-feed
-
-exclude: []

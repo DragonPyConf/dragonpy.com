@@ -9,7 +9,7 @@ var sassPaths = [
 ];
 
 function sass() {
-  return gulp.src('scss/app.scss')
+  return gulp.src('_scss/app.scss')
     .pipe($.sass({
       includePaths: sassPaths,
       outputStyle: 'compressed' // if css compressed **file size**
