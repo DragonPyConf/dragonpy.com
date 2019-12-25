@@ -29,7 +29,7 @@ body.home {
 
 .top-nav {
   padding-top: 16px;
-  padding-bottom: 90px;
+  padding-bottom: 16px;
 
   @include breakpoint(medium) {
     padding-top: 48px;
@@ -121,6 +121,8 @@ body.home {
 
 .mobile-menu__ul {
   list-style: none;
+  margin-top: 64px;
+  padding-left: 30px;
 }
 
 .mobile-menu__ul li a {
@@ -128,6 +130,25 @@ body.home {
   font-weight: 800;
   font-size: 20px;
   line-height: 42px;
+}
+
+.mobile-menu__cta-wrapper {
+  background-color: $medium-gray;
+  width: 100%;
+  text-align: center;
+
+  padding-top: 50px;
+  padding-bottom: 64px;
+}
+
+.mobile-menu__cracks {
+  height: 70px;
+  width: 100%;
+
+  margin-top: 40px;
+
+  background-image: url("../img/cracks.png");
+  background-size: cover;
 }
 
 .footer-menu {
