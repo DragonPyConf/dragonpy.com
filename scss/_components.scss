@@ -19,8 +19,13 @@ body.home {
 .home-background {
   background-image: url("../img/bg-home.svg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto;
   padding-bottom: 32px;
+  background-position: right top;
+
+  @include breakpoint(large) {
+    background-size: 100% auto;
+  }
 }
 
 .hero-text-bottom-padding {
@@ -105,11 +110,13 @@ body.home {
 #mobile-menu {
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   z-index: 20;
 
   background-color: $light-gray;
+  background: linear-gradient(180deg, $light-gray 80%, $medium-gray 80%);
   padding-bottom: 20px;
 }
 
@@ -153,6 +160,7 @@ body.home {
 
 .footer-menu {
   list-style: none;
+  margin-left: 0;
 }
 
 footer {
@@ -163,7 +171,7 @@ footer {
   color: $black;
   text-decoration: underline;
   font-size: 13px;
-  line-height: 19px;
+  line-height: 19px
 
   &:focus,
   &:hover,
