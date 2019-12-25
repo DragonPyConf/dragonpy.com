@@ -1,47 +1,30 @@
-# Foundation for Sites Template
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+# Set-up development environment
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+1. Install
+2. Make changes & commit
+3. Push to master
+4. Let Travis do the magic :)
 
 ## Installation
 
-To use this template, your computer needs:
+1. To set-up the environment for you'll need:
 
+- [Ruby](https://www.ruby-lang.org/en/downloads/) (2.4 or above)
+- [Jekyll](https://jekyllrb.com/)
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
 
-### Using the CLI
+2. After installation clone this repository and install dependencies :
+```npm install```
 
-Install the Foundation CLI with this command:
+3. Build assets
+If you changed the content and style, run `gulp sass`, but if you want to change style(s) only, run `gulp`
 
-```bash
-npm install foundation-cli --global
-```
+4. Run Jekyll
+```jekyll serve```
 
-Use this command to set up a blank Foundation for Sites project with this template:
+## Changes
+After making changes, push them to master branch. Every push triggers an automated build & deploy via Travis.
 
-```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
