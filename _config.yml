@@ -22,7 +22,7 @@ title: DragonPy conference 2020
 email: info@dragonpy.com
 description: >- # this means to ignore newlines until "baseurl:"
   Python Best Practices for the modern Web and Data Scientists.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/dragonpy2020" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
