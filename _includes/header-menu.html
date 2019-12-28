@@ -1,11 +1,9 @@
         <!-- shared header -->
         <nav class="top-nav grid-x grid-padding-x align-center hide-for-small-only">
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Become a sponsor</a></li>
-                <li><a href="#">Detailed schedule</a></li>
-                <li><a href="#">Code of Conduct</a></li>
-                <li><a href="#">Team</a></li>
+                {% for link in site.data.links %}
+                  <li><a href="{{ link.url | absolute_url }}">{{ link.name }}</a></li>
+                {% endfor %}
             </ul>
         </nav>
 

@@ -1,0 +1,14 @@
+- name: Home
+  url: /
+
+- name: Become a sponsor
+  url: /sponsors
+
+- name: Detailed schedule
+  url: /schedule
+
+- name: Code of conduct
+  url: /coc
+
+- name: Team
+  url: /team

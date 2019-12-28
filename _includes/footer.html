@@ -11,11 +11,9 @@
         <div class="grid-x grid-padding-x">
             <div class="small-10 small-offset-1 large-3 cell">
                 <ul class="footer-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Become a sponsor</a></li>
-                    <li><a href="#">Detailed schedule</a></li>
-                    <li><a href="#">Code of Conduct</a></li>
-                    <li><a href="#">Team</a></li>
+                {% for link in site.data.links %}
+                  <li><a href="{{ link.url | absolute_url }}">{{ link.name }}</a></li>
+                {% endfor %}
                 </ul>
             </div>
             <div class="small-10 large-5 cell text-footer small-offset-1 large-offset-0">
