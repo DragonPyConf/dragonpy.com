@@ -26,11 +26,9 @@
                     </div>
 
                     <ul class="mobile-menu__ul">
-                        <ul class="menu">
-                            {% for link in site.data.links %}
-                              <li><a href="{{ link.url | absolute_url }}">{{ link.name }}</a></li>
-                            {% endfor %}
-                        </ul>
+                        {% for link in site.data.links %}
+                          <li><a href="{{ link.url | absolute_url }}">{{ link.name }}</a></li>
+                        {% endfor %}
                     </ul>
 
                     <div class="mobile-menu__cracks"></div>
