@@ -10,6 +10,14 @@ body  {
   background-image: url("../img/bg.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+
+  @include breakpoint(medium) {
+    background-size: 150% auto;
+  }
+
+  @include breakpoint(large) {
+    background-size: 100% auto;
+  }
 }
 
 body.home {
@@ -226,3 +234,18 @@ footer {
 #mc_disclaimer {
   margin-top: 16px;
 }
+
+.lamp-mobile {
+  height: 80px;
+  width: 100%;
+  margin: -36px auto 16px 32px;
+
+  background-image: url("../img/lamp.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+
+  @include breakpoint(medium) {
+    display: none;
+  }
+}
+
