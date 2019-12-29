@@ -26,14 +26,14 @@
                     </div>
 
                     <ul class="mobile-menu__ul">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Become a sponsor</a></li>
-                        <li><a href="#">Detailed schedule</a></li>
-                        <li><a href="#">Code of Conduct</a></li>
-                        <li><a href="#">Team</a></li>
+                        <ul class="menu">
+                            {% for link in site.data.links %}
+                              <li><a href="{{ link.url | absolute_url }}">{{ link.name }}</a></li>
+                            {% endfor %}
+                        </ul>
                     </ul>
 
-                        <div class="mobile-menu__cracks"></div>
+                    <div class="mobile-menu__cracks"></div>
 
                     <div class="mobile-menu__cta-wrapper small-12 cell">
                         <a href="#" class="btn yellow">Submit talk proposal</a>
