@@ -18,7 +18,7 @@ function sass() {
     .pipe($.postcss([
       autoprefixer({ browsers: ['last 2 versions', 'ie >= 9'] })
     ]))
-    .pipe(gulp.dest('assets/css'))
+    .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.stream());
 };
 
@@ -31,7 +31,7 @@ function copyVendorFiles() {
                   ] ,
                  {base: 'node_modules/'}
                  )
-      .pipe(gulp.dest('assets/vendor/'));
+      .pipe(gulp.dest('_site/assets/vendor/'));
 };
 
 function serve() {
