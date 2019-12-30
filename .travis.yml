@@ -18,7 +18,7 @@ before_script:
   - npm install
 
 script:
-- bundle exec jekyll build --config config_gh_pages.yml
+- bundle exec jekyll build --config _config_gh_pages.yml
 - gulp build
 
 branches:
