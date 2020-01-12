@@ -4,11 +4,16 @@ layout: default
 
 # Sponsor DragonPy 2020
 
+DragonPy is a 2-day conference organized by a community of passionate Pythonistas on a volunteer basis. We can't put on a great show without some great sponsors. Here is your chance to reach the decision makers and developers from the area.
+
+DragonPy has a capacity of 300+ attendees and there are sponsorship opportunities to fit any budget. Be part of the first Python conference in Slovenia!
+
 ## Why Sponsor?
 
-* Increase brand awareness in the web-developer community
+* Increase brand awareness in the Python, Web and Data Science communities.
 * Find new employees within the highly motivated, skilled and interested participants.
-* Send your employees to the conference to educate them further, get connected in the community and motivate them.
+* Support your employees to grow into better developers by learning from a lineup of great speakers.
+* Give back to the community that you rely on. Ensure a bright future for Python locally and globally.
 
 ## Packages
 
@@ -27,13 +32,13 @@ layout: default
     <tr>
         <td>&nbsp;</td>
         <td class="text-nowrap">300 €</td>
-        <td class="text-nowrap">770 €</td>
+        <td class="text-nowrap">700 €</td>
         <td class="text-nowrap">1900 €</td>
         <td class="text-nowrap">3700 €</td>
         <td class="text-nowrap">20 000 €</td>
     </tr>
     <tr>
-        <td>Shoutout at conference??</td>
+        <td>Shoutout at the conference</td>
         <td>✔</td>
         <td>✔</td>
         <td>✔</td>
@@ -57,7 +62,7 @@ layout: default
         <td>✔</td>
     </tr>
     <tr>
-        <td>Speakers dinner tickets</td>
+        <td>Speakers' Dinner tickets</td>
         <td>-</td>
         <td>-</td>
         <td>1</td>
@@ -108,6 +113,6 @@ layout: default
 </table>
 
 
-Custom packages are also available, we would be happy to tailor a personal package for you. Just let us know your goal and budget.
+Custom packages are also available, we would be happy to tailor a personal package for you, especially if you are a smaller team, a non-profit or a social enterprise. Just let us know your goal and budget.
 
-Please write an inquiry to sponsoring@dragonpy.com. Thanks for supporting Python community and education!
+Please write an inquiry to sponsors@dragonpy.com. Thanks for supporting Python community and education!
