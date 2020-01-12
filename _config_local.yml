@@ -16,6 +16,3 @@ defaults:
       path: "assets/img"
     values:
       image: true
-
-plugins:
-  - jekyll-feed
