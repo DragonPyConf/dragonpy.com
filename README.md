@@ -11,10 +11,12 @@
 1. To set-up the environment for you'll need:
 
 - [Ruby](https://www.ruby-lang.org/en/downloads/) (2.4 or above)
+- [Python 2](https://www.python.org/downloads/)
 - [Jekyll](https://jekyllrb.com/)
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
 
+Alternatively, if you have [`nix`](https://nixos.org/nix/) installed, a simple run of `nix-shell` is enough to build & install all of the above.
 
 2. After installation clone this repository and install dependencies :
 ```npm install```
