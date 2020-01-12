@@ -4,7 +4,12 @@ let
     url = "https://github.com/nixos/nixpkgs/archive/f7d050ed4e3af90502c88bf0ae1fef62dcbde265.tar.gz";
     sha256 = "0fqs1z9q4zz938n6i32vh2sqrkk9yp15bk6kxpy8yrh3bxi2vqz9";
   };
-  pkgs = import nixpkgs { config = { allowUnfree = true; }; };
+  pkgs = import nixpkgs {
+    config = { allowUnfree = true; };
+    overlays = [
+      (import ./jekyll-sassc-patch.nix)
+    ];
+  };
 in
 
 pkgs.mkShell {
