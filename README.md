@@ -11,10 +11,12 @@
 1. To set-up the environment for you'll need:
 
 - [Ruby](https://www.ruby-lang.org/en/downloads/) (2.4 or above)
+- [Python 2](https://www.python.org/downloads/)
 - [Jekyll](https://jekyllrb.com/)
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
+- [NodeJS](https://nodejs.org/en/) (0.10)
 - [Git](https://git-scm.com/)
 
+Alternatively, if you have [`nix`](https://nixos.org/nix/) installed, a simple run of `nix-shell` is enough to build & install all of the above.
 
 2. After installation clone this repository and install dependencies :
 ```npm install```
@@ -31,7 +33,7 @@ If you want to deploy to your forked repo's Github page (resides in a subfolder)
 ```- bundle exec jekyll build --config _config_gh_pages.yml```
 
 After you're ready to push to production, change the line back to default one:
-```- bundle exec jekyll build```
+```bundle exec jekyll build```
 
 4. Build assets
 We use gulp to build the assets (SCSS to css, copy vendor files).
