@@ -7,6 +7,9 @@
 - name: Detailed schedule
   url: /schedule
 
+- name: Sprints
+  url: /sprints
+
 - name: Code of conduct
   url: /conduct
 
