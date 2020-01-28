@@ -30,7 +30,7 @@ To build the pages and serve them use
 This `config_local.yml` file is used for localhost only, `_config.yml` is used by Travis for production and you can use `_config_github_pages.yml`.
 
 If you want to deploy to your forked repo's Github page (resides in a subfolder) you can set up your own Travis integration and update the `.travis.yml` with following:
-```- bundle exec jekyll build --config _config_gh_pages.yml```
+```bundle exec jekyll build --config _config_gh_pages.yml```
 
 After you're ready to push to production, change the line back to default one:
 ```bundle exec jekyll build```
