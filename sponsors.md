@@ -25,7 +25,6 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
         <th>Bronze</th>
         <th>Silver</th>
         <th>Gold</th>
-        <th>General sponsor</th>
     </tr>
     </thead>
     <tbody>
@@ -35,11 +34,9 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
         <td class="text-nowrap">700 €</td>
         <td class="text-nowrap">1900 €</td>
         <td class="text-nowrap">3700 €</td>
-        <td class="text-nowrap">20 000 €</td>
     </tr>
     <tr>
         <td>Shoutout at the conference</td>
-        <td>✔</td>
         <td>✔</td>
         <td>✔</td>
         <td>✔</td>
@@ -51,12 +48,10 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
         <td>1</td>
         <td>2</td>
         <td>3</td>
-        <td>10</td>
     </tr>
     <tr>
         <td>Logo on all digital things: website, social, etc.)</td>
         <td>-</td>
-        <td>✔</td>
         <td>✔</td>
         <td>✔</td>
         <td>✔</td>
@@ -67,13 +62,11 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
         <td>-</td>
         <td>1</td>
         <td>2</td>
-        <td>3</td>
     </tr>
     <tr>
         <td>Logo on all printed things: rollups, tshirts, bags, etc.)</td>
         <td>-</td>
         <td>-</td>
-        <td>✔</td>
         <td>✔</td>
         <td>✔</td>
     </tr>
@@ -83,7 +76,6 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
         <td>-</td>
         <td>✔</td>
         <td>✔</td>
-        <td>✔</td>
     </tr>
     <tr>
         <td>Can put swag on "silver" table</td>
@@ -91,19 +83,9 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
         <td>-</td>
         <td>✔</td>
         <td>✔</td>
-        <td>✔</td>
     </tr>
     <tr>
         <td>Can have a booth in the foyer</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>✔</td>
-        <td>✔</td>
-    </tr>
-    <tr>
-        <td>Title "General DragonPy Sponsor"</td>
-        <td>-</td>
         <td>-</td>
         <td>-</td>
         <td>-</td>
