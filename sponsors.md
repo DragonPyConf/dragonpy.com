@@ -44,7 +44,7 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
     </tr>
     <tr>
         <td>Free conference tickets</td>
-        <td>-</td>
+        <td>1</td>
         <td>1</td>
         <td>2</td>
         <td>3</td>
