@@ -11,12 +11,6 @@ github_username:
 # Build settings
 markdown: kramdown
 
-sass:
-  style: compact
-  load_paths:
-    - _sass
-    - node_modules/foundation-sites/scss
-
 defaults:
   - scope:
       path: "assets/img"
