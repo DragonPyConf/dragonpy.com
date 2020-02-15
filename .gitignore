@@ -5,5 +5,4 @@ _site
 node_modules
 .DS_Store
 assets/vendor/
-assets/css/
 .direnv/
