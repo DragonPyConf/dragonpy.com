@@ -1,8 +1,13 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
 @charset 'utf-8';
 
 @import 'settings';
 @import 'foundation';
-@import 'motion-ui';
+// @import 'motion-ui';
 
 // Global styles
 @include foundation-global-styles;
@@ -60,7 +65,7 @@
 // @include foundation-prototype-classes;
 
 // Motion UI
-@include motion-ui-transitions;
-@include motion-ui-animations;
+// @include motion-ui-transitions;
+// @include motion-ui-animations;
 
 @import "components";
