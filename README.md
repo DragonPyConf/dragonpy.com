@@ -35,12 +35,6 @@ If you want to deploy to your forked repo's Github page (resides in a subfolder)
 After you're ready to push to production, change the line back to default one:
 ```bundle exec jekyll build```
 
-4. Build assets
-We use gulp to build the assets (SCSS to css, copy vendor files).
-Use `gulp build` to build the assets.
-
-**Important**: when developing locally, run the `gulp build` command *after* Jekyll files are built, since compiled css files are not included in the repository.
-
 
 ## Deployment
 After making changes, push them to master branch. Every push triggers an automated build & deploy via Travis.
