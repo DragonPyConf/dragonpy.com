@@ -13,10 +13,13 @@ install:
 
 before_script:
   - bundle install
+  - npm install --global gulp-cli
+  - npm install --save-dev gulp
   - npm install
 
 script:
 - bundle exec jekyll build
+- gulp build
 
 branches:
   only:
