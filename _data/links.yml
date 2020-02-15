@@ -7,6 +7,9 @@
 - name: Detailed schedule
   url: /schedule
 
+- name: Venue
+  url: /venue
+
 - name: Sprints
   url: /sprints
 
