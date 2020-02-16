@@ -1,34 +1,34 @@
-- name: Jure Čuhalev
-  tagline:
-  image:
-  url: http://www.jurecuhalev.com/blog/
-
 - name: Nejc Zupan
   tagline:
-  image:
+  image: /assets/img/team/nejc.jpg
   url: https://github.com/zupo
+
+- name: Jure Čuhalev
+  tagline:
+  image: /assets/img/team/jure.jpg
+  url: http://www.jurecuhalev.com/blog/
 
 - name: Žan Anderle
   tagline:
-  image:
+  image: /assets/img/team/zan.jpg
   url: https://zanderle.com/
 
 - name: Ines Panker
   tagline:
-  image:
+  image: /assets/img/team/ines.jpg
   url: http://www.ines-panker.com/
+
+- name: Tina Rozman
+  tagline:
+  image: /assets/img/team/tina.jpg
+  url: https://si.linkedin.com/in/tinarozman
 
 - name: Mateja Verlič Brunčič
   tagline:
-  image:
+  image: /assets/img/team/mateja.jpg
   url: https://github.com/sparkica
 
 - name: Heidi Pungartnik
   tagline:
-  image:
+  image: /assets/img/team/heidi.jpg
   url: http://www.heidipun.com/
-
-- name: Tina Rozman
-  tagline:
-  image:
-  url: https://si.linkedin.com/in/tinarozman
