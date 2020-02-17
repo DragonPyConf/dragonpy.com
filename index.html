@@ -13,11 +13,11 @@
         {% include header-menu.html %}
 
         <!-- home specific content -->
-        <div class="grid-x grid-padding-x align-center-middle">
+        <div class="grid-x grid-padding-x align-center-middle home-hero">
             <div class="large-5 small-10 cell">
                 <img src="assets/img/logo_final.png" alt="DragonPy Logo"/>
             </div>
-            <div class="large-4 small-10 cell text-white">
+            <div class="large-4 small-10 cell home-hero__text">
                 <h1 class="hero-text-bottom-padding">Python Best Practices for the modern Web and Data Scientists</h1>
                 <p class="hero-text-bottom-padding">A Python conference in Ljubljana, Slovenia, taking place on April 18
                     &
@@ -27,48 +27,51 @@
         </div>
 
         <div class="grid-x grid-padding-x align-center home-newsletter">
-            <div class="large-10 large-offset-2 small-10 cell">
-                <h1>Stay Up to Date</h1>
-            </div>
-            <div class="large-10 large-offset-2 small-10 cell grid-x">
-                <div class="large-6 cell">
-                    <form action="https://dragonpy.us4.list-manage.com/subscribe/post?u=b5b4174148875c2fb71a0baf9&amp;id=357fcd279f"
-                          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                          class="validate"
-                          target="_blank" novalidate>
+            <div class="small-10 large-4 grid-y align-top">
+                <div class="cell">
+                    <h1>Stay Up to Date</h1>
+                </div>
+                <div class="cell grid-x">
+                    <div class="large-12 cell">
+                        <form action="https://dragonpy.us4.list-manage.com/subscribe/post?u=b5b4174148875c2fb71a0baf9&amp;id=357fcd279f"
+                              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                              class="validate"
+                              target="_blank" novalidate>
 
-                        <div id="mc_embed_signup_scroll">
+                            <div id="mc_embed_signup_scroll">
 
-                            <div id="mce-responses">
-                                <div class="" id="mce-error-response" style="display:none"></div>
-                                <div class="" id="mce-success-response" style="display:none"></div>
+                                <div id="mce-responses">
+                                    <div class="" id="mce-error-response" style="display:none"></div>
+                                    <div class="" id="mce-success-response" style="display:none"></div>
+                                </div>
+
+                                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+                                       placeholder="email address" required>
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                                                                                          name="b_b5b4174148875c2fb71a0baf9_357fcd279f"
+                                                                                                          tabindex="-1"
+                                                                                                          value="">
+                                </div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                                                          id="mc-embedded-subscribe" class="btn yellow"></div>
                             </div>
+                        </form>
 
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
-                                   placeholder="email address" required>
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                                                                                      name="b_b5b4174148875c2fb71a0baf9_357fcd279f"
-                                                                                                      tabindex="-1"
-                                                                                                      value=""></div>
-                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
-                                                      id="mc-embedded-subscribe" class="btn yellow"></div>
-                        </div>
-                    </form>
-
-                    <p id="mc_disclaimer" class="text-left">*We are using Mailchimp for sending out newsletters.</p>
+                        <p id="mc_disclaimer" class="text-left">*We are using Mailchimp for sending out newsletters.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="grid-x grid-padding-x align-center">
-            <div class="large-10 large-offset-2 medium-offset-2 cell">
-                <div class="text-center large-text-left medium-text-left">
-                    <a href="https://twitter.com/dragonpyconf?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-                       data-size="large" data-show-count="false">Follow @dragonpyconf</a>
+            <div class="large-5 grid-x">
+                <div class="medium-10 medium-offset-1 large-10 large-offset-2 cell">
+                    <div class="text-center large-text-left medium-text-left">
+                        <a href="https://twitter.com/dragonpyconf?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+                           data-size="large" data-show-count="false">Follow @dragonpyconf</a>
+                    </div>
+                    <a class="twitter-timeline" data-lang="en" data-height="600" data-width="400" data-dnt="true"
+                       href="https://twitter.com/dragonpyconf?ref_src=twsrc%5Etfw">Tweets by dragonpyconf</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <a class="twitter-timeline" data-lang="en" data-height="600" data-width="400" data-dnt="true"
-                   href="https://twitter.com/dragonpyconf?ref_src=twsrc%5Etfw">Tweets by dragonpyconf</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
@@ -79,65 +82,85 @@
         <div class="large-10 small-10 cell big-bottom-padding">
             <h1 id="keynotes">Keynote Speakers</h1>
         </div>
-          <div class="large-4 medium-6 small-10 cell big-bottom-padding">
-              <img src="assets/img/mateja_verlic_bruncic.jpg" alt="dr. Mateja Verlič Brunčič"/>
-          </div>
-          <div class="large-6 small-10 cell ">
+        <div class="large-4 medium-6 small-10 cell big-bottom-padding">
+            <img src="assets/img/mateja_verlic_bruncic.jpg" alt="dr. Mateja Verlič Brunčič"/>
+        </div>
+        <div class="large-6 small-10 cell ">
             <h2 class="">dr. Mateja Verlič Brunčič</h2>
-            <p class="">Almost ten years ago, Python and its frameworks changed Mateja's life when she joined a well known Slovenian startup. She quickly realized that Bottle and Flask are not necessarily related to alcoholic beverages and that microframeworks could move large chunks of bodies, if necessary. She believes that if the original MacGyver were a programmer, he would use Python and gum and some duct tape.</p>
-            <p>She was knee-deep in tools and scripts, minding her own business, and then the next thing she knows, she's involved with some badass Python developers doing good things, like organizing a Django workshop for women. Not unlike Django from Django Unchained, but this one helping women to overcome their fear of programming.</p>
+            <p class="">Almost ten years ago, Python and its frameworks changed Mateja's life when she joined a well
+                known Slovenian startup. She quickly realized that Bottle and Flask are not necessarily related to
+                alcoholic beverages and that microframeworks could move large chunks of bodies, if necessary. She
+                believes that if the original MacGyver were a programmer, he would use Python and gum and some duct
+                tape.</p>
+            <p>She was knee-deep in tools and scripts, minding her own business, and then the next thing she knows,
+                she's involved with some badass Python developers doing good things, like organizing a Django workshop
+                for women. Not unlike Django from Django Unchained, but this one helping women to overcome their fear of
+                programming.</p>
             <p>Currently, she's exploring the frontiers of genes, alleles and healthy lifestyle at GenePlanet.
-            <p>She will guide us through funny side-effects of getting to know Python and its family of frameworks. You will also find out whether this journey was worth taking.</p>
+            <p>She will guide us through funny side-effects of getting to know Python and its family of frameworks. You
+                will also find out whether this journey was worth taking.</p>
         </div>
     </div>
 </div>
 
 <div class="grid-container home-sponsors big-bottom-padding">
     <div class="grid-x grid-padding-x align-center-middle">
-          <div class="large-6 small-10 cell ">
+        <div class="large-6 small-10 cell ">
             <h2 class="">Matthew Wilkes</h2>
-            <p class="">Matthew started working with Python in 2005 and has since contributed core code to a number of Python Web frameworks such as  Zope, Plone, Pyramid and Django. For many years he was a member of the Plone security team and served on the Plone Framework team.</p>
-            <p>Professionally, he worked on web offerings for many of the most prestigious universities in the English speaking world, as well as various charities, governments and non-profits. The occasional company, too.</p>
-            <p>Currently, he is keeping himself busy polishing up his upcoming book by Apress, Advanced Python Development: Using Powerful Language Features in Real-World Applications.</p>
+            <p class="">Matthew started working with Python in 2005 and has since contributed core code to a number of
+                Python Web frameworks such as Zope, Plone, Pyramid and Django. For many years he was a member of the
+                Plone security team and served on the Plone Framework team.</p>
+            <p>Professionally, he worked on web offerings for many of the most prestigious universities in the English
+                speaking world, as well as various charities, governments and non-profits. The occasional company,
+                too.</p>
+            <p>Currently, he is keeping himself busy polishing up his upcoming book by Apress, Advanced Python
+                Development: Using Powerful Language Features in Real-World Applications.</p>
             <p>He’ll show us some of the best and most underused features of Python.</p>
         </div>
-          <div class="large-4 medium-6 small-10 cell big-bottom-padding">
-              <img src="assets/img/matthew_wilkes.jpg" alt="Matthew Wilkes"/>
-          </div>
+        <div class="large-4 medium-6 small-10 cell big-bottom-padding">
+            <img src="assets/img/matthew_wilkes.jpg" alt="Matthew Wilkes"/>
+        </div>
     </div>
 </div>
 <div class="grid-container home-sponsors">
     <div class="grid-x grid-padding-x align-center-middle">
         <div class="large-10 cell">
             <h1>Sponsors</h1>
-            <p>DragonPy relies on sponsors to keep ticket prices affordable. If you would like to sponsor the conference learn more about <a href="https://dragonpy.com/sponsors">DragonPy sponsorship</a>.</p>
+            <p>DragonPy relies on sponsors to keep ticket prices affordable. If you would like to sponsor the conference
+                learn more about <a href="https://dragonpy.com/sponsors">DragonPy sponsorship</a>.</p>
         </div>
         <div class="small-12 cell"></div>
         <div class="large-10 cell">
             <h5 class="home-sponsors__coorg">Gold Sponsors</h5>
         </div>
         <div class="small-12 cell"></div>
-        <div class="large-2 small-6 cell">
-            <a href="http://www.brewiks.com/" target="_blank" rel="noopener"><img src="assets/img/logo-brewiks.jpeg" alt="Brewiks - micro brewery"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo">
+            <a href="http://www.brewiks.com/" target="_blank" rel="noopener"><img src="assets/img/logo-brewiks.jpeg"
+                                                                                  alt="Brewiks - micro brewery"></a>
         </div>
-        <div class="large-2 small-6 cell">
-            <a href="https://www.plantformance.com/" target="_blank" rel="noopener"><img src="assets/img/logo-plantformance.png" alt="Plantformance AG"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo">
+            <a href="https://www.plantformance.com/" target="_blank" rel="noopener"><img
+                    src="assets/img/logo-plantformance.png" alt="Plantformance AG"></a>
         </div>
         <div class="large-10 cell">
             <h5 class="home-sponsors__coorg">Silver Sponsors</h5>
         </div>
         <div class="small-12 cell"></div>
-        <div class="large-2 small-6 cell">
-            <a href="https://www.zemanta.com/" target="_blank" rel="noopener"><img src="assets/img/logo-zemanta.jpg" alt="Zemanta"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo">
+            <a href="https://www.zemanta.com/" target="_blank" rel="noopener"><img src="assets/img/logo-zemanta.jpg"
+                                                                                   alt="Zemanta"></a>
         </div>
-        <div class="large-2 small-6 cell">
-            <a href="http://reciprocitylabs.com/" target="_blank" rel="noopener"><img src="assets/img/logo-reciprocity.png" alt="Reciprocity"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo">
+            <a href="http://reciprocitylabs.com/" target="_blank" rel="noopener"><img
+                    src="assets/img/logo-reciprocity.png" alt="Reciprocity"></a>
         </div>
-        <div class="large-2 small-6 cell">
-            <a href="https://genialis.com/" target="_blank" rel="noopener"><img src="assets/img/logo-genialis.png" alt="Genialis"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo">
+            <a href="https://genialis.com/" target="_blank" rel="noopener"><img src="assets/img/logo-genialis.png"
+                                                                                alt="Genialis"></a>
         </div>
-        <div class="large-2 small-6 cell">
-            <a href="https://aviatnet.com/" target="_blank" rel="noopener"><img src="assets/img/logo-aviat.png" alt="Aviat Networks"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo">
+            <a href="https://aviatnet.com/" target="_blank" rel="noopener"><img src="assets/img/logo-aviat.png"
+                                                                                alt="Aviat Networks"></a>
         </div>
 
         <div class="small-12 cell home-sponsors__cta"></div>
@@ -146,24 +169,28 @@
             <h5 class="home-sponsors__coorg">Organized in Collaboration with</h5>
         </div>
         <div class="small-12 cell sponsors__cta"></div>
-        <div class="large-3 small-6 cell">
-            <a href="https://www.fdv.uni-lj.si/en/research/research-centres/department-of-sociology/centre-for-methodology-and-informatics" target="_blank" rel="noopener"><img src="assets/img/logo-fdv.jpg" alt="Center for Methodology and Informatics (Faculty of Social Sciences, University of Ljubljana)"></a>
+        <div class="large-3 small-6 cell home-sponsors__logo">
+            <a href="https://www.fdv.uni-lj.si/en/research/research-centres/department-of-sociology/centre-for-methodology-and-informatics"
+               target="_blank" rel="noopener"><img src="assets/img/logo-fdv.jpg"
+                                                   alt="Center for Methodology and Informatics (Faculty of Social Sciences, University of Ljubljana)"></a>
         </div>
-                <div class="small-12 cell"></div>
-        <div class="large-2 small-6 cell">
+        <div class="small-12 cell"></div>
+        <div class="large-2 small-6 cell home-sponsors__logo ">
             <a href="https://kleos.si/" target="_blank" rel="noopener"><img src="assets/img/logo-kleos.png" alt="Kleos"></a>
         </div>
-        <div class="large-2 small-6 cell">
-            <a href="https://manning.com/" target="_blank" rel="noopener"><img src="assets/img/logo-manning.png" alt="Manning Publications"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo">
+            <a href="https://manning.com/" target="_blank" rel="noopener"><img src="assets/img/logo-manning.png"
+                                                                               alt="Manning Publications"></a>
         </div>
-        <div class="large-2 small-6 cell">
-            <a href="https://pretix.eu/" target="_blank" rel="noopener"><img src="assets/img/logo-pretix.svg" alt="Pretix"></a>
+        <div class="large-2 small-6 cell home-sponsors__logo ">
+            <a href="https://pretix.eu/" target="_blank" rel="noopener"><img src="assets/img/logo-pretix.svg"
+                                                                             alt="Pretix"></a>
         </div>
-        <div class="large-2 small-6 cell">
+        <div class="large-2 small-6 cell home-sponsors__logo">
             <a href="https://niteo.co/" target="_blank" rel="noopener"><img src="assets/img/logo-niteo.svg" alt="Niteo"></a>
         </div>
-        </div>
     </div>
+</div>
 </div>
 
 
@@ -171,7 +198,9 @@
     <div class="grid-x grid-padding-x align-center-middle">
         <div class="large-10 cell">
             <h1>Supporters</h1>
-            <p>These people have generously stepped up to help make DragonPy happen and donated their personal hard-earned money to ensure a bright future for our community. May the Zen (of Python) forever shine on your keyboards!
+            <p>These people have generously stepped up to help make DragonPy happen and donated their personal
+                hard-earned money to ensure a bright future for our community. May the Zen (of Python) forever shine on
+                your keyboards!
             </p>
             <ul>
                 <li>Peter Lamut</li>

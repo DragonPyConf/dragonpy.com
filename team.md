@@ -11,11 +11,15 @@ We've collectively been part of many different local and international conferenc
 
 ## Meet the volunteers who are making DragonPy 2020 happen.
 
-<ul>
+
+<div class="grid-x grid-padding-x align-center-middle"> 
 {% for member in site.data.members %}
-  <li><a href="{{ member.url }}" target="_blank">{{ member.name }}</a></li>
+<div class="small-6 large-3 cell text-center">
+  <a class="team__name" href="{{ member.url }}" target="_blank"><img class="team__avatar" src="{{ member.image }}" alt="{{ member.name }}" /></a>
+  <a class="team__name" href="{{ member.url }}" target="_blank">{{ member.name }}</a>
+  </div>
 {% endfor %}
-</ul>
+</div>
 
 
 

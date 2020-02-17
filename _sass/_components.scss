@@ -29,7 +29,7 @@ body.home {
 }
 
 .home-background {
-  background-image: url("../img/bg-home.svg");
+  background-image: url("../img/bg-home-medium.svg");
   background-repeat: no-repeat;
   background-size: auto;
   padding-bottom: 32px;
@@ -38,11 +38,28 @@ body.home {
   @include breakpoint(large) {
     background-size: 100% auto;
   }
+
+  @include breakpoint(xlarge) {
+    background-image: url("../img/bg-home.svg");
+  }
+}
+
+.home-hero {
+  @include breakpoint(xlarge) {
+    //padding-bottom: 30px;
+  }
+}
+
+.home-hero__text {
+  @include breakpoint(xlarge) {
+    color: $white;
+  }
 }
 
 .hero-text-bottom-padding {
   padding-bottom: 25px;
 }
+
 .big-bottom-padding {
   padding-bottom: 25px;
 }
@@ -56,6 +73,7 @@ body.home {
     padding-bottom: 90px;
   }
 }
+
 
 .menu > li > a {
   color: $white;
@@ -234,8 +252,20 @@ footer {
   margin-top: 48px;
 }
 
+.home-sponsors__logo {
+  margin-top: 16px;
+}
+
+.home-sponsors__logo img {
+  max-width: 100%;
+}
+
 .home-newsletter {
   margin: 32px auto;
+}
+
+.home-twitter {
+  min-height: 660px;
 }
 
 #mce-EMAIL {
@@ -248,7 +278,7 @@ footer {
 
 .lamp-mobile {
   height: 80px;
-  width: 100%;
+  width: 87px;
   margin: -36px auto 16px 32px;
 
   background-image: url("../img/lamp.png");
@@ -260,3 +290,15 @@ footer {
   }
 }
 
+.team__avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  border-radius: 100%;
+  width: 200px;
+}
+
+.team__name {
+}
