@@ -21,7 +21,7 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
     <thead>
     <tr>
         <th>&nbsp;</th>
-        <th>Supporter</th>
+        <th>Individual Supporter</th>
         <th>Bronze</th>
         <th>Silver</th>
         <th>Gold</th>
@@ -58,7 +58,7 @@ DragonPy has a capacity of 300+ attendees and there are sponsorship opportunitie
     </tr>
     <tr>
         <td>Speakers' Dinner tickets</td>
-        <td>-</td>
+        <td>1</td>
         <td>-</td>
         <td>1</td>
         <td>2</td>
