@@ -1,0 +1,31 @@
+{% include head.html %}
+
+<body class="page">
+
+<div class="grid-container">
+    <!-- shared header -->
+    {% include header-menu.html %}
+
+    <!-- page specific content -->
+    <div class="grid-x grid-padding-x align-middle">
+        <div class="lamp-mobile"></div>
+
+        <div class="small-10 small-offset-1 large-offset-1 large-10 cell">
+            <div class="grid-x grid-padding-x align-middle">
+                <div class="small-3 cell">
+                    <img class="talk__avatar" src="/assets/img/speakers/{{ page.image }}" />
+                </div>
+                <div class="cell auto">
+                    <h1>{{ page.title}}</h1>
+                </div>
+            </div>
+
+            {{ content }}
+
+        </div>
+    </div>
+
+</div>
+<!-- end home specific content -->
+
+{% include footer.html %}
