@@ -7,6 +7,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
+collections:
+  talks:
+    talk: true
+    output: true
 
 # Build settings
 markdown: kramdown
