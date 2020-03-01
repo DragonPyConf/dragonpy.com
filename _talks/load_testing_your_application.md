@@ -22,7 +22,7 @@ Understanding how your system performs under a heavy load is important for many 
 
 Many tools on the market are stuck in the 90s or don't meet many of the needs you might face.
 They're missing some or many of the following features:
-* ability to run the load test programatically,
+* ability to run the load test programmatically,
 * hit many endpoints simultaneously,
 * control the payload for each URL,
 * support for personas (e.g. admin user, visitor),
@@ -33,5 +33,5 @@ We're going to explore Python's Locust project and how you can use it to achieve
 
 ## Bio
 Programmer by training and a technical manager by trade with a knack for UX.
-Planning and building support applications with a strong team is my passion, where the planning part happens over a pint of beer. 
+Planning and building support applications with a strong team is his passion, where the planning part happens over a pint of beer. 
 
