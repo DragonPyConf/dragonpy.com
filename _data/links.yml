@@ -1,8 +1,11 @@
 - name: Home
   url: /
 
-- name: Become a sponsor
-  url: /sponsors
+- name: Tickets
+  url: https://pretix.eu/dragonpy/2020/
+
+- name: Talks
+  url: /talks
 
 - name: Schedule
   url: /schedule
@@ -12,6 +15,9 @@
 
 - name: Sprints
   url: /sprints
+
+- name: Become a sponsor
+  url: /sponsors
 
 - name: Code of conduct
   url: /conduct
