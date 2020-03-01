@@ -13,7 +13,7 @@ Our devices are continually sending and receiving a complex set of instructions 
 ## Description
 HTTP headers are the–mostly–hidden backbone of our online infrastructure. However, for a standard designed to be consumed entirely by code, and rarely seen by people, HTTP headers contain a surprising amount of geeky humour and many oddities.
 
-Since reading the [convoluted history of the browser user-agent](https://webaim.org/blog/user-agent-string-history/) and finding out that MySpace's servers were powered by "Nerd Rage" I've been curious as to what other interesting histories headers had, or what easter eggs mischevious developers had hidden for others like them to find.
+Since reading the [convoluted history of the browser user-agent](https://webaim.org/blog/user-agent-string-history/) and finding out that MySpace's servers were powered by "Nerd Rage" I've been curious as to what other interesting histories headers had, or what easter eggs mischievous developers had hidden for others like them to find.
 
 Join me on this deep dive into HTTP headers as I go through how I spidered 10,000,000 domains. We'll look at the challenges of writing an efficient, concurrent HTTP spider in Python as well as some of my findings from the harvested headers.
 
