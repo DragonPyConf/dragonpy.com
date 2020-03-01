@@ -2,7 +2,7 @@
 layout: talk
 title: Be nice, help the person who hacks your servers to get your data
 speaker: Vranac Srdjan
-image: https://secure.gravatar.com/avatar/5a19066f37052cb27575c1597164ceb2?s=500
+image: vranac.jpg
 twitter: vranac
 url: 
 ---

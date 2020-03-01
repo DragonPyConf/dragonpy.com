@@ -2,7 +2,7 @@
 layout: talk
 title: What is bioinformatics and how Python helps us make meaningful contributions to society
 speaker: Roman Luštrik
-image: https://secure.gravatar.com/avatar/21b3a444fe93f2b42e80657a7691045e?s=500
+image: romunov.jpg
 twitter: romunov
 url: http://biolitika.si
 ---

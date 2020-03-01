@@ -2,7 +2,7 @@
 layout: talk
 title: "Speed Up Your Data Processing: Parallel and Asynchronous Programming in Data Science"
 speaker: Chin Hwee Ong
-image: https://secure.gravatar.com/avatar/78a26060bbb88be50cc352664e6e2648?s=500
+image: ongchinhwee.jpg
 twitter: ongchinhwee
 url: https://ongchinhwee.me
 ---
