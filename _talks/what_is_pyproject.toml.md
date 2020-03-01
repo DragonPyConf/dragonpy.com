@@ -4,7 +4,6 @@ title: What is `pyproject.toml`?
 speaker: Steph Samson
 image: https://secure.gravatar.com/avatar/527360f08ecb5cb41b1430cae92fec50?s=500
 twitter: 
-github: https://github.com/stephsamson
 url: https://stephsamson.com
 ---
 
