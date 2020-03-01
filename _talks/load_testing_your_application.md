@@ -2,7 +2,7 @@
 layout: talk
 title: Load testing your application
 speaker: Rok Carl
-image: https://secure.gravatar.com/avatar/93cfa9b57395efda82ba43ff6853f56d?s=500
+image: rokcarl.jpg
 twitter: rokcarl
 url: 
 ---

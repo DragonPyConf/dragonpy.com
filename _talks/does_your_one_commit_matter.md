@@ -1,8 +1,8 @@
 ---
 layout: talk
 title: Does your one commit matter?
-speaker: pawel.kopka22@gmail.com
-image: https://secure.gravatar.com/avatar/1518a85812f88ea290ad82ecc2904c84?s=500
+speaker: Paweł Kopka
+image: drnonebody.jpg
 twitter: DrNoneBody
 url: 
 ---

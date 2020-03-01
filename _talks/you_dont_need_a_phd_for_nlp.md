@@ -2,7 +2,7 @@
 layout: talk
 title: You Don’t Need a PhD for NLP
 speaker: Emily Karungi
-image: https://secure.gravatar.com/avatar/13629a6f02bda7844b47da602f8c4d28?s=500
+image: emily.jpg
 twitter: EmilyKarungi
 url: 
 ---
