@@ -4,7 +4,6 @@ title: Can't Get You Out of My Head
 speaker: Aaron Bassett
 image: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/463/18033820_1332309786863382_2702766457790515776_n.jpg
 twitter: aaronbassett
-github: https://github.com/stephsamson
 url: https://aaronbassett.com
 ---
 
