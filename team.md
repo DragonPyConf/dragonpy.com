@@ -22,7 +22,6 @@ We've collectively been part of many different local and international conferenc
 </div>
 
 
+## Organizing entities
 
-
-
-
+Event is organized in collaboration with Društvo Lugos and Niteo. They are providing us with accounting, legal and paperwork support.
