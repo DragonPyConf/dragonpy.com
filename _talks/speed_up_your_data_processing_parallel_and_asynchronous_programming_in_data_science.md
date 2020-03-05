@@ -4,7 +4,7 @@ title: "Speed Up Your Data Processing: Parallel and Asynchronous Programming in 
 speaker: Chin Hwee Ong
 image: ongchinhwee.jpg
 twitter: ongchinhwee
-url: https://ongchinhwee.me
+speaker_url: https://ongchinhwee.me
 ---
 
 ## Abstract

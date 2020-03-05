@@ -4,7 +4,7 @@ title: The beautiful world of Python type annotations
 speaker: Janez Troha
 image: dz0ny.jpg
 twitter: dz0ny
-url: https://dz0ny.dev
+speaker_url: https://dz0ny.dev
 ---
 
 ## Abstract

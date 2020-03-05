@@ -4,7 +4,7 @@ title: Scaling our API to 30k requests per minute in Django
 speaker: Nejc Saje
 image: nejcsaje.jpg
 twitter: NejcSaje
-url: https://nejc.saje.info/
+speaker_url: https://nejc.saje.info/
 ---
 
 ## Abstract

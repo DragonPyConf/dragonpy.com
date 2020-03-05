@@ -4,7 +4,7 @@ title: Do You Want To Build a Snowman? Writing scripts that can talk to the user
 speaker: Alex Chan
 image: alexwlchan.jpg
 twitter: alexwlchan
-url: https://alexwlchan.net
+speaker_url: https://alexwlchan.net
 ---
 
 ## Abstract

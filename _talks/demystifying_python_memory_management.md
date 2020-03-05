@@ -4,7 +4,7 @@ title: Demystifying Python Memory Management
 speaker: Chelsea Dole
 image: dole.png
 twitter: 
-url: http://chelseadole.com
+speaker_url: http://chelseadole.com
 ---
 
 ## Abstract

@@ -4,7 +4,7 @@ title: Load testing your application
 speaker: Rok Carl
 image: rokcarl.jpg
 twitter: rokcarl
-url: 
+speaker_url: 
 ---
 
 ## Abstract
