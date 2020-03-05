@@ -4,7 +4,7 @@ title: "State Machines in your Python: from inline to StateCharts with SISMIC"
 speaker: Dror Speiser
 image: dror.jpg
 twitter: drorspei
-url: https://drorspei.wordpress.com/
+speaker_url: https://drorspei.wordpress.com/
 ---
 
 ## Abstract

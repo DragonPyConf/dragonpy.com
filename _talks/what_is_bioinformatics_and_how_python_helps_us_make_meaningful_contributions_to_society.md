@@ -4,7 +4,7 @@ title: What is bioinformatics and how Python helps us make meaningful contributi
 speaker: Roman Luštrik
 image: romunov.jpg
 twitter: romunov
-url: http://biolitika.si
+speaker_url: http://biolitika.si
 ---
 
 ## Abstract

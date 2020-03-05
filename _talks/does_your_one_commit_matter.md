@@ -4,7 +4,7 @@ title: Does your one commit matter?
 speaker: Paweł Kopka
 image: drnonebody.jpg
 twitter: DrNoneBody
-url: 
+speaker_url: 
 ---
 
 ## Abstract

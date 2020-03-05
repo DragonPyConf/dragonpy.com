@@ -4,7 +4,7 @@ title: Be nice, help the person who hacks your servers to get your data
 speaker: Vranac Srdjan
 image: vranac.jpg
 twitter: vranac
-url: 
+speaker_url:
 ---
 
 ## Abstract

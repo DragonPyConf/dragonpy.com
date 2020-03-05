@@ -4,7 +4,7 @@ title: Async microservices in Python
 speaker: Iacopo Spalletti
 image: yakkys.png
 twitter: yakkys
-url: https://www.nephila.digital
+speaker_url: https://www.nephila.digital
 ---
 
 ## Abstract

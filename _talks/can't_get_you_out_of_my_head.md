@@ -4,7 +4,7 @@ title: Can't Get You Out of My Head
 speaker: Aaron Bassett
 image: aaronbassett.png
 twitter: aaronbassett
-url: https://aaronbassett.com
+speaker_url: https://aaronbassett.com
 ---
 
 ## Abstract
