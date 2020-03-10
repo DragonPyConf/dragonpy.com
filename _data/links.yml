@@ -1,8 +1,11 @@
 - name: Home
   url: /
 
-- name: Tickets
-  url: https://pretix.eu/dragonpy/2020/
+- name: Announcement
+  url: /postponed
+
+#- name: Tickets
+#  url: https://pretix.eu/dragonpy/2020/
 
 - name: Talks
   url: /talks
