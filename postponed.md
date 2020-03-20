@@ -14,4 +14,4 @@ If you already bought a ticket, it will be valid for the September event. In cas
 If you're one of the speakers, we'd love you to come and speak in September. We'll get in touch with you via Papercall.
 If you're one of the sponsors, we'll send you an individual email.
 
-If you have any questions please email us at [info@dragon.py](info@dragon.py) and we'll try to address them.
+If you have any questions please email us at [info@dragonpy.com](info@dragonpy.com) and we'll try to address them.
