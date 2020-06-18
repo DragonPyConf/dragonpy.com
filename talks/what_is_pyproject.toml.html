@@ -1,0 +1,193 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragonPy | Python Conference - Ljubljana, Slovenia - April 2020</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dragonpy.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dragonpy.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dragonpy.com/favicon-16x16.png">
+    <link rel="manifest" href="https://dragonpy.com/site.webmanifest">
+    <link rel="mask-icon" href="https://dragonpy.com/safari-pinned-tab.svg" color="#5bbad5">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900&display=swap&subset=latin-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css?v=1592482067">
+</head>
+
+
+<body class="page">
+
+<div class="grid-container">
+    <!-- shared header -->
+            <!-- shared header -->
+        <nav class="top-nav grid-x grid-padding-x align-center hide-for-small-only">
+            <ul class="menu">
+                
+                  <li><a href="https://dragonpy.com/">Home</a></li>
+                
+                  <li><a href="https://dragonpy.com/postponed">Announcement</a></li>
+                
+                  <li><a href="https://dragonpy.com/talks">Talks</a></li>
+                
+                  <li><a href="https://dragonpy.com/schedule">Schedule</a></li>
+                
+                  <li><a href="https://dragonpy.com/venue">Venue</a></li>
+                
+                  <li><a href="https://dragonpy.com/sprints">Sprints</a></li>
+                
+                  <li><a href="https://dragonpy.com/sponsors">Become a sponsor</a></li>
+                
+                  <li><a href="https://dragonpy.com/conduct">Code of conduct</a></li>
+                
+                  <li><a href="https://dragonpy.com/team">Team</a></li>
+                
+            </ul>
+        </nav>
+
+        <div class="grid-x grid-padding-x show-for-small-only"
+             data-responsive-toggle="mobile-menu">
+
+            <nav class="top-nav small-11 cell text-right">
+                <button class="text-white text-bold" data-toggle="mobile-menu">menu</button>
+            </nav>
+        </div>
+
+        <div id="mobile-menu" class="hide-for-medium">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="small-12 cell text-right"
+                         data-responsive-toggle="mobile-menu">
+                        <button type="button" class="mobile-menu__close"
+                                data-toggle="mobile-menu">close
+                        </button>
+                    </div>
+
+                    <ul class="mobile-menu__ul">
+                        
+                          <li><a href="https://dragonpy.com/">Home</a></li>
+                        
+                          <li><a href="https://dragonpy.com/postponed">Announcement</a></li>
+                        
+                          <li><a href="https://dragonpy.com/talks">Talks</a></li>
+                        
+                          <li><a href="https://dragonpy.com/schedule">Schedule</a></li>
+                        
+                          <li><a href="https://dragonpy.com/venue">Venue</a></li>
+                        
+                          <li><a href="https://dragonpy.com/sprints">Sprints</a></li>
+                        
+                          <li><a href="https://dragonpy.com/sponsors">Become a sponsor</a></li>
+                        
+                          <li><a href="https://dragonpy.com/conduct">Code of conduct</a></li>
+                        
+                          <li><a href="https://dragonpy.com/team">Team</a></li>
+                        
+                    </ul>
+
+                    <div class="mobile-menu__cracks"></div>
+
+                    <div class="mobile-menu__cta-wrapper small-12 cell">
+                        <a href="#" class="btn yellow">Submit talk proposal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end shared header -->
+
+    <!-- page specific content -->
+    <div class="grid-x grid-padding-x align-middle">
+        <div class="lamp-mobile"></div>
+
+        <div class="small-10 small-offset-1 large-offset-1 large-10 cell">
+            <div class="grid-x grid-padding-x align-middle">
+                <div class="small-3 cell">
+                    <img class="talk__avatar" src="/assets/img/speakers/samson.jpg"/>
+                </div>
+                <div class="cell auto">
+                    <div class="talk__name">Steph Samson
+                        
+                         - <a
+                                href="https://stephsamson.com" target="_blank">Home page</a>
+                        
+
+                    </div>
+                    <h1>What is `pyproject.toml`?</h1>
+                </div>
+            </div>
+
+            <h2 id="abstract">Abstract</h2>
+<p>What is <code class="highlighter-rouge">pyproject.toml</code> and where did it come from? Why does the Python community need another config file? We’ll answer these questions with a short journey of Python’s tooling landscape and a demystification of the two PEPs (517 &amp; 518) that brought pyproject.toml to life.</p>
+
+<h2 id="description">Description</h2>
+<p>The Python ecosystem has been plagued (or gifted, depending on your perspective) with a host of configuration files – from <code class="highlighter-rouge">setup.py</code> to <code class="highlighter-rouge">setup.cfg</code> to <code class="highlighter-rouge">MANIFEST.in</code>. Not to mention each package’s own <code class="highlighter-rouge">.ini</code> or <code class="highlighter-rouge">.yml</code> configuration file. So why do we need another configuration file?</p>
+
+<p>To answer this question, we need to start with the history of Python packaging. From there we’ll move on to the current state of Python packaging with the existing incumbent builtin build tools, <code class="highlighter-rouge">disutils</code> and <code class="highlighter-rouge">setuptools</code>. Knowing the build processes of these packaging utilities will help us understand the motivation for PEP-517 and PEP-518 and the inception of <code class="highlighter-rouge">pyproject.toml</code>.</p>
+
+<p>We will then explore popular packages that use the <code class="highlighter-rouge">pyproject.toml</code>, some of which include <code class="highlighter-rouge">black</code>, <code class="highlighter-rouge">poetry</code>, and <code class="highlighter-rouge">flit</code>.</p>
+
+<h2 id="bio">Bio</h2>
+<p>Steph is a software engineer with six years of experience and a formal education in computational linguistics. She is also a core contributor to Poetry, a volunteer mentor for Frauenloop, an international conference speaker, and a competitive climber.</p>
+
+
+
+        </div>
+    </div>
+
+</div>
+<!-- end home specific content -->
+
+<!-- shared footer -->
+<footer>
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x align-center">
+            <div class="large-10 cell">
+                <div class="footer-dragon"></div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container ">
+        <div class="grid-x grid-padding-x">
+            <div class="small-10 small-offset-1 large-3 cell">
+                <ul class="footer-menu">
+                
+                  <li><a href="https://dragonpy.com/">Home</a></li>
+                
+                  <li><a href="https://dragonpy.com/postponed">Announcement</a></li>
+                
+                  <li><a href="https://dragonpy.com/talks">Talks</a></li>
+                
+                  <li><a href="https://dragonpy.com/schedule">Schedule</a></li>
+                
+                  <li><a href="https://dragonpy.com/venue">Venue</a></li>
+                
+                  <li><a href="https://dragonpy.com/sprints">Sprints</a></li>
+                
+                  <li><a href="https://dragonpy.com/sponsors">Become a sponsor</a></li>
+                
+                  <li><a href="https://dragonpy.com/conduct">Code of conduct</a></li>
+                
+                  <li><a href="https://dragonpy.com/team">Team</a></li>
+                
+                </ul>
+            </div>
+            <div class="small-10 large-5 cell text-footer small-offset-1 large-offset-0">
+                <p>A Python conference in Ljubljana, Slovenia, taking place on April 18 & 19, 2020. Followed by three
+                    days of sprints.
+                </p>
+                <p>Organized by DragonPy Team in collaboration with the Center for Methodology and Informatics (Faculty of
+                    Social Sciences, University of Ljubljana)</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end shared footer -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.1/js/foundation.min.js"></script>
+<script src="/assets/js/app.js"></script>
+
+</body>
+</html>
+
